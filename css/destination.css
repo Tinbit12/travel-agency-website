@@ -1,0 +1,42 @@
+.call-g{
+    text-align: center;
+    font-weight:bold;
+    color:blue
+}
+.about3{
+    background-color: #fff;
+    padding:30px;;
+
+}
+.about3 h3{
+    text-align: center;
+    font-weight: bold;
+    color:darkgreen;
+    font-size:25px;
+}
+.inner{
+    background-color: rgb(206, 233, 206);
+    margin:60px auto;
+    padding:10%;
+    opacity:0.8;
+    width:300px;
+}
+ .about3 ul li{
+    list-style:circle;
+}
+.input{
+    opacity:0.8;
+   display:inline-block;
+
+}
+.about3{
+    background-image: url(../images/about3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+}
+button{
+    background-color: green;
+    ;
+}

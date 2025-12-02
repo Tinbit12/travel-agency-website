@@ -1,0 +1,82 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    opacity:0.8;
+    /* color:inherit; */
+}
+
+/* Header / Navigation */
+header {
+    background-color: #0a74da;
+    padding: 1rem ;
+    position: relative;
+    
+}
+
+nav ul {
+    display: block;
+    justify-content: right;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700;
+    transform: scale(1.05);
+}
+
+/* Main Content */
+main {
+    padding: 2rem 1rem;
+}
+ ul{
+    padding:20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+/* FOOTER */
+ footer {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #eee;
+ }
+  
+    /* RESPONSIVE DESIGN */
+    @media(min-width:768px){
+         header nav ul{
+        display:flex;
+        justify-content:center;
+    }
+}
+    @media(min-width:1024px){
+        header nav ul{
+        justify-content:right;
+    }
+    }    
