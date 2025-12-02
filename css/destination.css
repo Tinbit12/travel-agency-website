@@ -1,3 +1,12 @@
+#destinations-hero{
+    background-image: url(../images/dest-banner.jpg);
+      height:400px;
+      background-size: cover;
+      background-position:center;
+      background-repeat: no-repeat;
+      
+}
+
 .call-g{
     text-align: center;
     font-weight:bold;
