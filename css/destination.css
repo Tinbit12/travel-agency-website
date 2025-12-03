@@ -1,24 +1,49 @@
 #destinations-hero{
-    background-image: url(../images/dest-banner.jpg);
-      height:400px;
-      background-size: cover;
-      background-position:center;
-      background-repeat: no-repeat;
-      
+      text-align: center;
+      padding:60px 0;
+      color:rgb(12, 12, 12);
+    
 }
+.buttons{
+    width:350px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+}
+.firs{
+    background-color: #1a09d0;
+    width:30px;
+    border:1px solid white;
+    border-radius:5px;
+}
+
+
+.card1{
+    background-image: url(../images/addisA.jpg);
+}
+.card2{
+    background-image: url(../images/Gonder-2.jpg);
+}
+.card3{
+    background-image: url(../images/harar.jpg);
+    display:none;
+}
+
+
 
 .call-g{
     text-align: center;
     font-weight:bold;
-    color:blue
+    color:rgb(0, 255, 140);
 }
 .about3{
     background-color: #fff;
     padding:30px;;
 
 }
-.about3 h3{
-    text-align: center;
+.about3 h4{
+   
     font-weight: bold;
     color:darkgreen;
     font-size:25px;
@@ -26,9 +51,9 @@
 .inner{
     background-color: rgb(206, 233, 206);
     margin:60px auto;
-    padding:10%;
     opacity:0.8;
-    width:300px;
+    padding:10px;
+    
 }
  .about3 ul li{
     list-style:circle;
@@ -45,7 +70,20 @@
     background-repeat: no-repeat;
     width:100%;
 }
-button{
+.submit{
     background-color: green;
-    ;
+    width:80px;
 }
+/* RESPONSIVE DESIGN */
+    @media(min-width:768px){
+        .inner{
+            width:700px;
+        }
+    }
+
+    @media(min-width:1024px){
+        .card3{
+            display:block;
+        }
+    }
+
