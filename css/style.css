@@ -122,6 +122,11 @@ h2 {
       header nav ul{
         display:flex;
         justify-content:center;
+     }
+    header{
+          position:sticky;
+        top:0;
+        z-index:1000;
     }
       .card{
         padding:4rem 1.5rem;
